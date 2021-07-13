@@ -69,6 +69,7 @@ docker-build:
 	docker build \
 	  -f ../docker/Dockerfile \
 	   --build-arg PKG_NAME=${PKG_NAME} \
+	   --build-arg IMAGE_NAME=${IMAGE_NAME} \
 	  -t ${IMAGE}:${TAG} \
 	  -t ${HOST}/${IMAGE}:${TAG} \
 	  ../
