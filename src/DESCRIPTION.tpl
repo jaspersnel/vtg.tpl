@@ -10,5 +10,5 @@ Imports:
     glue,
     vtg
 Remotes:
-    mellesies/vtg
+    iknl/vtg
 RoxygenNote: 7.0.0
